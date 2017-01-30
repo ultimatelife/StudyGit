@@ -7,7 +7,7 @@ var obj = {
 	}
 };
 
-var sample_obj = Class.create(obj);
+var sample_obj = Object.create(obj);
 sample_obj.name = "zino";
 sample_obj.height = 190;
-obj.getHeight();
+sample_obj.getHeight();
